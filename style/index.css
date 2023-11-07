@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #033;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Adiciona transição de cor com duração de 0.3 segundos */
+}
+
+nav ul li a:hover {
+  color: rgb(0, 255, 81); /* Define a cor desejada ao passar o mouse */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilo para a seção da exposição */
+.exhibition {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exhibit-item {
+  width: calc(33.33% - 20px); /* Ajusta para 3 itens por linha com margens */
+  margin: 10px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  /* Estilo adicional para o item da exposição */
+  /* Adicione estilo para bordas, sombras, etc. */
+}
+
+/* Posicionamento dos ícones para links externos */
+.external-links {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Estilo para os ícones */
+.external-links a {
+  display: inline-block;
+  width: 30px; /* Tamanho do ícone */
+  height: 30px; /* Tamanho do ícone */
+  border-radius: 50%; /* Deixa o ícone redondo */
+  overflow: hidden; /* Garante que a imagem se ajuste ao ícone redondo */
+  margin-right: 5px; /* Espaço entre os ícones */
+}
+
+/* Adicione estilo para os ícones, ajustando largura, altura e margens conforme necessário */
+.external-links a img {
+  width: 100%; /* Garante que a imagem preencha o ícone */
+  height: auto; /* Mantém a proporção da imagem */
+  
+}
