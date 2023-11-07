@@ -93,3 +93,20 @@ body {
   height: auto; /* Mantém a proporção da imagem */
   
 }
+/* Estilo adicional para os itens da exposição e seus contornos */
+.exhibit-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s; /* Adiciona transição de transformação e sombra */
+
+  /* Contorno ao redor do item e descrição */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Inicia sem contorno */
+}
+
+.exhibit-item:hover {
+  transform: scale(1.05); /* Aumenta a escala em 5% ao passar o mouse */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona um contorno ao redor do item */
+}
