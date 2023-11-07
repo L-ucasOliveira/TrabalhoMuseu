@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museu de Itens Eletrônicos</title>
+  <link rel="stylesheet" href="./style/index.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #007bff;
+    }
+
+    .exhibition {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .exhibit-item {
+      flex: 0 0 30%;
+      background-color: #f9f9f9;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .exhibit-item img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .external-links {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+
+    .external-links a {
+      margin-left: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bem-vindo ao MCIF</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="notebooks.html">Notebooks</a></li>
+        <li><a href="scanners.html">Scanners</a></li>
+        <li><a href="impressoras.html">Impressoras</a></li>
+        <li><a href="celulares.html">Celulares</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre o MCIF</h2>
+      <p>
+        "Venha desvendar a história dos dispositivos eletrônicos no Museu de Itens Eletrônicos. Aqui, explore uma
+        variedade de tecnologias, incluindo notebooks, scanners, impressoras, celulares e video games. Uma jornada
+        fascinante pela evolução tecnológica espera por você."
+      </p>
+      <h1>Destaques</h1>
+      <!-- Exposição do Museu em linhas de três itens -->
+      <div class="exhibition">
+        <div class="exhibit-item">
+          <img src="./fotos/notebook.jpg" alt="Notebook antigo">
+          <h3>Notebook Antigo</h3>
+          <p>Este notebook antigo representa a evolução dos dispositivos portáteis ao longo dos anos.</p>
+        </div>
+        <div class="exhibit-item">
+          <img src="./fotos/scanner.jpg" alt="Scanner clássico">
+          <h3>Scanner Clássico</h3>
+          <p>Um scanner icônico que foi utilizado por muitos escritórios nas últimas décadas.</p>
+        </div>
+        <div class="exhibit-item">
+          <img src="./fotos/impressora.jpg" alt="Impressora vintage">
+          <h3>Impressora Vintage</h3>
+          <p>Uma impressora de época que marcava o início da impressão em casa.</p>
+        </div>
+        <!-- Adicione mais divs .exhibit-item conforme necessário -->
+      </div>
+
+      <!-- Ícones para links externos no canto inferior direito -->
+      <div class="external-links">
+        <a href="https://instagram.com/ifsudestemgjf/"><img src="./fotos/insta.jpg" alt="Instagram"></a>
+        <a href="https://www.ifsudestemg.edu.br/juizdefora"><img src="./fotos/if.png" alt="IF Sudeste MG"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Museu de Itens Eletrônicos</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
