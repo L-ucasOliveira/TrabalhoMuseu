@@ -76,7 +76,7 @@ body {
 
 /* Posicionamento dos ícones para links externos */
 .external-links {
-  position: fixed;
+  position: relative;
   bottom: 10px;
   right: 10px;
 }
