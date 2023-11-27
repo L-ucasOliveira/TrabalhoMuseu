@@ -58,14 +58,18 @@ body {
 .exhibition {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .exhibit-item {
-  width: calc(33.33% - 20px); /* Ajusta para 3 itens por linha com margens */
+  width: 400px; /* Ajusta para 3 itens por linha com margens */
+  height: 450px;
   margin: 10px;
   background: #fff;
   padding: 20px;
   box-sizing: border-box;
+  /* border: #000 solid 1px; */
   /* Estilo adicional para o item da exposição */
   /* Adicione estilo para bordas, sombras, etc. */
 }
