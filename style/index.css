@@ -69,6 +69,7 @@ body {
   background: #fff;
   padding: 20px;
   box-sizing: border-box;
+  border: 1px solid  rgb(0, 26, 97);
   /* border: #000 solid 1px; */
   /* Estilo adicional para o item da exposição */
   /* Adicione estilo para bordas, sombras, etc. */
