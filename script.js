@@ -34,6 +34,4 @@ const exhibitItems = document.querySelectorAll('.exhibit-item');
       });
     });
 
-    // function pagSelec(){
-    //   a.style.color = 'red'
-    // }
+   
